@@ -39,6 +39,13 @@ a {
   cursor: pointer;
 }
 
+.b_favourite:hover {
+    background-color: rgb(210, 204, 204);
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
 /* tab menu */
 #tabmenu {
   background-color: rgb(210, 204, 204);
@@ -49,6 +56,7 @@ a {
   gap: 40px;
   padding: 0 12px 0 12px;
 }
+
 /* tab menu - buttons */
 #buttons {
   display: flex;
@@ -164,7 +172,6 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
 }
 
 .b_favourite img {
