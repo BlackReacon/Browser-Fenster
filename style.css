@@ -2,6 +2,21 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: rgb(211, 218, 218);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.resizable {
+    background-color: rgb(255, 255, 255);
+    resize: both;
+    overflow: auto;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 1920px;
+    height: 1080px;
 }
 
 /* links */
