@@ -1,0 +1,94 @@
+/* main */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* links */
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* hover */
+
+.circle:hover,
+.tablinks img:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+.open:hover {
+  background-color: rgb(177, 178, 228);
+  cursor: pointer;
+}
+
+/* tab menu */
+#tabmenu {
+  background-color: rgb(210, 204, 204);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 48px;
+  gap: 40px;
+  padding: 0 12px 0 12px;
+}
+/* tab menu - buttons */
+#buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.circle {
+  border-style: none;
+  border-radius: 50%;
+  height: 18px;
+  width: 18px;
+  cursor: pointer;
+}
+
+#b_red {
+  background-color: rgb(255, 0, 0);
+}
+
+#b_yellow {
+  background-color: rgb(255, 255, 0);
+}
+
+#b_green {
+  background-color: rgb(0, 205, 0);
+}
+
+/* tab menu - tabs */
+#tab {
+  display: flex;
+  justify-content: flex-start;
+  align-self: flex-end;
+}
+
+.tablinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.tablinks img {
+  width: 12px;
+  height: 12px;
+}
+
+.open {
+  background-color: white;
+  border-style: none;
+  border-radius: 8px 8px 0 0;
+  width: 200px;
+  height: 36px;
+}
+
+.hidden {
+  background-color: inherit;
+  border-style: none;
+  height: 36px;
+}
