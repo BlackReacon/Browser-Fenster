@@ -30,12 +30,12 @@ a {
 .circle:hover,
 .tablinks img:hover,
 #s_searchbar img:hover {
-  transform: scale(1.5);
+  transform: scale(1.1);
   cursor: pointer;
 }
 
 .open:hover {
-  background-color: rgb(177, 178, 228);
+  background-color: rgb(241, 237, 237);
   cursor: pointer;
 }
 
